@@ -1,0 +1,29 @@
+hostname SW-PFT
+
+ip domain-name netmiko.py
+
+interface VLAN 1
+    ip address 192.168.40.64 255.255.255.0
+    no shutdown
+    exit
+
+username tanulo privilege 15 password Jelszo123
+
+line vty 0 15
+    login local
+    transport input ssh
+    exit
+
+crypto key generate rsa
+
+
+[1024]
+
+
+ip ssh version 2
+
+
+
+
+
+
