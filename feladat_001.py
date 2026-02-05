@@ -17,8 +17,14 @@ def set_enable_pwd(ssh):
     ssh.send_config_set(f"enable password {jelszo}")
 
 
+#5
 
 
+def banner_jelszo_ellenorzes(ssh):
+    ssh.send_config_set(f"banner motd #Jogosulatlanul bejelentkezni TILOS!#")
+    
+    print(ssh.send_command("show running-config | include password"))
+    print(ssh.send_command("show running-config | include secret"))
 
 
 # ---------------------------
@@ -43,6 +49,11 @@ try:
         set_enable_pwd(kapcsolat)
         
         print(kapcsolat.send_command("show running-config | include enable"))
+        
+        
+        
+        
+        banner_jelszo_ellenorzes(kapcsolat)
         
 
 except Exception as ex:
