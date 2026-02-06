@@ -1,0 +1,4 @@
+line con 0
+ password Jelszo123
+ logging synchronous
+ login

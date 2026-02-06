@@ -1,0 +1,10 @@
+interface FastEthernet0/1
+interface FastEthernet0/2
+interface FastEthernet0/3
+interface FastEthernet0/4
+interface FastEthernet0/5
+interface FastEthernet0/6
+interface FastEthernet0/7
+interface FastEthernet0/8
+interface GigabitEthernet0/1
+interface Vlan1
