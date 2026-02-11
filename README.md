@@ -10,5 +10,5 @@ Egyszer volt, hol nem volt ...
 
 3. Egyszerű lekérdezések, beállítások: feladat_001.py
 
-
+.....
 
