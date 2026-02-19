@@ -3,9 +3,9 @@ from netmiko import ConnectHandler
 
 kapcsolo = {
     "device_type": "cisco_ios",
-    "host": "192.168.40.57",
-    "username": "oli",
-    "password": "wsw"
+    "host": "192.168.40....",
+    "username": "....",
+    "password": "...."
 }
 
 
