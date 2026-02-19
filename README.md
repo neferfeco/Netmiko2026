@@ -10,5 +10,10 @@ Egyszer volt, hol nem volt ...
 
 3. Egyszerű lekérdezések, beállítások: feladat_001.py
 
-.....
+.....: feladat-002.py
+
+5. Mentés TFTP-szerverre: tftp_mentes.py
+
+
+
 

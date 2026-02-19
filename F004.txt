@@ -1,0 +1,19 @@
+Jelszavak / jelszó házirend ellenőrzése
+==========================================
+A cég IT vezetése módosította a biztonsági házirendet,
+melybe új elemek kerültek be:
+- a hálózati eszközökön min. 8 karakter hosszúságú jelszavakat
+  kell használni
+- a jelszó feltörési kísérletek megnehezítése érdekében be kell
+  állítani, hogy belépéskor 1 percen belül 3 elrontott kísérlet után
+  10 percre zárolja a belépést az eszköz
+
+Írjon Python szkriptet, amely elvégzi a következő feladatokat!
+
+1) A házirendnek megfelelő beállítások elvégzése!
+
+2) A jelszavak ellenőrzése. Ha egy jelszó nem teljesíti a feltételt, akkor cserélje le megfelelőre! Több NEM megfelelő jelszó esetén az új jelszavak lehetnek azonosak!
+
+3) Mentsd el a konfigurációt TFTP szerverre!
+
+

@@ -1,3 +1,4 @@
+
 hostname SW-PFT
 
 ip domain-name netmiko.py
@@ -15,12 +16,11 @@ line vty 0 15
     exit
 
 crypto key generate rsa
-
-
-[1024]
+1024
 
 
 ip ssh version 2
+
 
 
 

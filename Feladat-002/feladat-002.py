@@ -60,6 +60,7 @@ def konzol_jelszo_ellenorzes_A(ssh, online):
   
 
 def konzol_jelszo_ellenorzes_B(ssh, online):    
+
     if online:
         output = ssh.send_command("show running-config | section line con 0")
     else:        
