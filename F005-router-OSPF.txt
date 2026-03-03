@@ -1,0 +1,29 @@
+ELŐKÉSZÜLET
+
+A) Állíts be SSH elérést!
+
+B) Hozz létre egy OSPF folyamatot 13-as ID-vel.
+Hirdesd a működő interfészed hálózatát!
+
+C) Csatlakoztasd a PC-det a router egy másik interfészéhez!
+Hálózatcím: 172.162.<SSH hosztcím>.12/30
+Router if cím:  ...13
+PC cím:         ...14
+
+
+
+-------- PROGRAMOZVA ----------------------
+
+1) Kérdezd le a szomszédokat és írd ki, hogy hány OSPF szomszéd van!
+
+2) Hirdesd meg a PC-d hálózatát is!
+
+3) Állítsd be a referencia sávszélességet! Értékét kérdezd meg a felhasználótól!
+    Választható értékek: 100, 1000, 10000
+
+4) Állíts be egyedi router azonosítót! Az azonosítót kérdezd meg a felhasználótól!
+    A feladatot úgy old meg mintha NEM TUDNÁD az OSPF folyamatazonosítót!
+    Ellenőrizd az azonosító formátumát! Csak megfelelő formátumú azonosító beállítását végezze el a szkript!
+
+
+

@@ -4,6 +4,7 @@ hostname SW-PFT
 ip domain-name netmiko.py
 
 interface VLAN 1
+interface G0/0
     ip address 192.168.40.64 255.255.255.0
     no shutdown
     exit
