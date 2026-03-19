@@ -1,0 +1,28 @@
+
+1.) Mióta működik az eszköz? (üzemidő: uptime)
+
+2.) Az eszköz melyik interfészei nem aktívak?
+
+3.) Hozz létre egy új Loopback interfészt (Loopback 100) a routeren, és adj neki egy IP címet! 10.10.10.10/24
+
+4.) Derítsd ki, hogy a G0/0 interfész EIGRP mérték számításban részt vevő paramétereinek mi az aktuális értéke! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

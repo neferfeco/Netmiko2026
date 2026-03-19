@@ -1,0 +1,34 @@
+Suli-SW -> Cisco SW (a) -portok-> 1-1 db Cisco-R (amin dolgoznak a tanulók) G.../0-ás interfészébe dugva.
+Cisco-R G.../1 interfészek -> Cisco SW (b)
+
+
+ELŐKÉSZÜLET
+
+A) Állítsd be az eszköz nevét a következő formula alapján: R-<monogram>
+
+B) Állíts be IP-címet a G.../0-ás interfészen!
+
+C) Állíts be SSH elérést!
+
+
+
+-------- PROGRAMOZVA ----------------------
+
+1) Konfigurálj RoaS-t a forgalomirányító G.../1 interfészén!
+    VLAN 11     192.168.11.11/24
+    VLAN 13     192.168.13.13/23
+
+2) Egy harmadik VLAN-t is adj hozzá, de az adatait bekéréssel határozd meg!
+    LEVEL 2: Próbáld meg a maszkot prefixes alakban bekérni, majd maszkká alalkítani!
+
+3) Indíts TFTP-szervert és mentsd le a forgalomirányító bállításait!
+
+3) Írasd ki táblázatos formában az alinterfészek azonosítóit és a hozzájuk rendelt VLAN-ok azonosítóit!
+    MINTA
+        Alinterface ID      VLAN ID
+        ---------------------------
+        G0/1.83             48
+        G0/1.192            77
+
+
+
